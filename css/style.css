@@ -1,3 +1,4 @@
-#navbarResponsive {
-    margin-right: 0;
+.topnav-right {
+    display: flex;
+    justify-content: flex-end;
 }
