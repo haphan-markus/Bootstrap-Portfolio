@@ -15,15 +15,16 @@
 <body>
 
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary card text-center">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fix-top" id="mainNavBar"> <!--remove "card"-->
       <div class="container">
         <a class="navbar-brand" href="#page_top">Where software and engineer meets</a>
-        <button class="navbar-toggler navbar-collapse" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">Menu
+        <button class="navbar-toggler navbar-toggler-right" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation"> <!--Remove navbar-collapse in the button will hide it first-->
+        Menu
           <i class="fas fa-bars"></i> <!--Hamburger menu dropdown-->
         </button>
-        <div class="card-header collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="nav nav-tabs navbar-nav card-header-tabs">
             <li class="nav-item">
               <a class="nav-link" aria-current="true" href="#Work">Work</a>
